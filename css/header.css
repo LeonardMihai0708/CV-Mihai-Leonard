@@ -1,0 +1,37 @@
+.search_bar{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: rgb(59, 59, 59);
+    text-align: right;
+    padding: 0;
+    position: fixed;
+}
+.fas{
+    font-size: 15px;
+}
+.search_bar a{
+    color: rgb(255, 255, 255);   
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    padding: 3vh;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.search_bar a:hover{
+    color: rgb(190, 187, 187);   
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 600px){
+    .search_bar p{
+        font-size: 18px;
+    }
+    .search_bar a{
+        font-size: 12px;
+    }
+}
